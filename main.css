@@ -1,0 +1,534 @@
+@media (min-width: 1200px) {
+ body{
+        background-color: #5F1A1A;
+        width: 100%;
+        height: 1715px;
+        margin: 0px;
+    }
+    
+    .base
+    {
+        background-color: #F4F4F4;
+        width: 1200px;
+        height: 1715px;
+        margin: 0 auto;
+        margin-top:0px;
+    }
+    
+    header{
+        text-transform: uppercase;
+        width: 1200px;
+        height: 105px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    header .label{
+        color:#7C7171;
+        float: left;
+        width: 298px;
+        height: 79px;
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 24px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5em;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        margin-right: 43px;
+        text-decoration: none;
+    }
+    
+    header .label a:hover{
+        cursor: pointer;
+    }
+    
+    header .menu{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    header .menu a{
+        text-decoration: none;
+        color:#7C7171;
+        margin-right: 43px;
+    }
+    
+    header .menu .btn{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    header .menu a:hover{
+        font-weight:700;
+    }
+    
+    header .menu .btn:hover{
+        background-color:#5F1A1A;
+        color:white;
+    }   
+    main{
+        margin-top: 20px;
+    }
+    
+    main .slaider{
+        text-align: center;
+    }
+    
+    main .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:300;
+    font-size: 14px;
+        color:#7C7171;
+        text-align: center;
+        line-height: 25px;
+        width: 940px;
+        margin-left: 130px;
+    }
+    
+    main .text .h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        line-height: 20px;
+    }
+    
+    main .reportage {
+        width: 1100px;
+        height: 525px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    main .reportage .news{
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 300px;
+        height: 525px;
+        color: #7C7171;
+    }
+    
+    main .reportage .news:hover{
+        background-color: #5F1A1A;
+        color: #FFFFFF;
+        transition: 0.5s;
+        transform:scale(1.05);
+    }
+    
+    main .reportage .arrow{
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+    
+    main .reportage .news img{
+        width: 300px;
+        height: 225px;
+    }
+    
+    main .reportage .news p{
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    footer{
+        margin-top: 20px;
+        width: 1200px;
+        height: 240px;
+    }
+    
+    footer .contacts{
+        width: 800px;
+        height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 200px;
+        margin-top: 20px;
+        color: #7C7171;
+    }
+    
+    footer .contacts:hover{
+        background-color:#5F1A1A;
+        color:white;
+        transition: 0.5s;
+        transform: scale(1.05);
+    }
+    
+    footer .contacts .h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top:15px;
+    margin:0px;
+    }
+    
+    footer .contacts .adress{
+        width: 340px;
+        height: 86px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 30px;
+    padding-left: 42px;
+    margin:0px;
+    padding-top: 10px;
+    float: left;
+    }
+    
+    footer .contacts .telephone{
+        width: 242px;
+        height: 69px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 30px;
+    padding-right: 42px;
+    margin:0px;
+    padding-top: 10px;
+    float: right;
+    text-align: right;
+    }
+    
+    footer .sponsors{
+        float: left;
+        margin-left: 50px;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    
+    footer .sponsors .rvio{
+        width: 50px;
+        height: 62.21px;
+        float: left;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    
+    footer .sponsors pre{
+    width: 318px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    color: #7C7171;
+    margin:0px;
+    padding-top: 25px;
+    padding-left: 65px;
+    }
+    
+    footer .social{
+        float: right;
+        padding-top:30px;
+        display: inline-block;
+        padding-right: 50px;
+    }
+    
+    footer .social img{
+        width: 50px;
+        height: 50px;
+        padding-left: 16px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+    body{
+        background-color:#F4F4F4;
+        width: 100%;
+        height: 2840px;
+        margin: 0px;
+    }
+    
+    .base
+    {
+        background-color: #F4F4F4;
+        width: 375px;
+        height: 2840px;
+        margin-top:0px;
+    }
+    
+    header{
+        text-transform: uppercase;
+        width: 375px;
+        height: 280px;
+        text-align: center;
+    }
+    
+    header .label{
+        color:#7C7171;
+        float: left;
+        width: 375px;
+        height: 69px;
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: 30px;
+        align-items: center;
+        letter-spacing: 0.5em;
+        margin-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+        float: initial;
+        display: block;
+    }
+    
+    header .menu{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        float: initial;
+        justify-content:space-around;
+        display: block;
+    }
+    
+    header .menu a{
+        text-decoration: none;
+        color:#7C7171;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    header .menu .btn{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    header .menu a:hover{
+        font-weight:700;
+    }
+    
+    header .menu .btn:hover{
+        background-color:#5F1A1A;
+        color:white;
+    }
+    
+     main{
+        margin-top: 10px;
+    }
+    
+    main .slaider{
+        text-align: center;
+    }
+    
+    main .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:300;
+        font-size: 12px;
+        color:#7C7171;
+        text-align: center;
+        line-height: 1.5;
+        width: 300px;
+        margin-left: auto;
+        margin-right:auto ;
+    }
+    
+    main .text .h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: 1;
+        margin: 0px;
+        padding-top: 10px;
+    }
+    
+    main .reportage {
+        width: 300px;
+        height: 1525px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main .reportage .news{
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 300px;
+        height: 500px;
+        color: #7C7171;
+    }
+    
+    main .reportage .arrow{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    main .reportage .news img{
+        width: 300px;
+        height: 225px;
+    }
+    
+    main .reportage .news p{
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    } 
+    
+    footer{
+        margin-top: 20px;
+        width: 364px;
+        height: 327px;
+    }
+    
+    footer .contacts{
+        width: 350px;
+        height: 200px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        color: #7C7171;
+        margin-left: 12.5px;
+        margin-right: 12.5px;
+        text-align: center;
+    }
+
+    footer .contacts .h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:0px;
+    }
+    
+    footer .contacts .adress{
+        width: 300px;
+        height: 62px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0px;
+        padding-left: 25px;
+    }
+    
+    footer .contacts .telephone{
+        width: 240px;
+        height: 69px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 20px;
+    margin:0px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 55px;
+    }
+    
+    footer .sponsors{
+        float: left;
+        margin-left: 5px;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    
+    footer .sponsors .rvio{
+        width: 50px;
+        height: 62.21px;
+        float: left;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    
+    footer .sponsors pre{
+    width: 318px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #7C7171;
+    margin:0px;
+    padding-top: 35px;
+    padding-left: 55px;
+    }
+    
+    footer .social{
+        padding-top:15px;
+        display: inline-block;
+        padding-left: 83px;
+    }
+    
+    footer .social img{
+        width: 50px;
+        height: 50px;
+        padding-left: 16px;
+    }  
+}
