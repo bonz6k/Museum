@@ -628,10 +628,6 @@
     padding-bottom: 10px;
     }
     
-    header .menu a:hover{
-        font-weight:700;
-    }
-    
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
@@ -764,9 +760,9 @@
     padding-top: 10px;
     text-align: center;
     }
-    
+
     footer .sponsors{
-        width: 75%;
+        width: 62.5%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -800,14 +796,14 @@
     footer .social{
         padding-top:15px;
         display: inline-block;
-        margin: 0 auto;
     }
     
     footer .social img{
         width: 50px;
         height: 50px;
-        padding-left: 16px;
-    } 
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
 
 
@@ -902,10 +898,6 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    }
-    
-    header .menu a:hover{
-        font-weight:700;
     }
     
     header .menu .btn:hover{

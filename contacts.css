@@ -560,10 +560,6 @@ footer .social img{
     padding-bottom: 10px;
     }
     
-    header .menu a:hover{
-        font-weight:700;
-    }
-    
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
@@ -639,56 +635,9 @@ footer .social img{
         width: 100%;
         height: auto;
     }
-    
-    footer .contacts{
-        width: 80%;
-        height: 180px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin-top: 20px;
-        color: #7C7171;
-        margin: 0 auto;
-        text-align: center;
-    }
 
-    footer .contacts .h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 24px;
-    line-height: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin:0px;
-    }
-    
-    footer .contacts .adress{
-        width: 85%;
-        height: auto;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight:lighter;
-        font-size: 20px;
-        line-height: 20px;
-        margin: 0 auto;
-
-    }
-    
-    footer .contacts .telephone{
-        width: 70%;
-        height: auto;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight:lighter;
-        font-size: 20px;
-        line-height: 20px;
-    margin:0 auto;
-    padding-top: 10px;
-    text-align: center;
-    }
-    
     footer .sponsors{
-        width: 75%;
+        width: 62.5%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -722,13 +671,13 @@ footer .social img{
     footer .social{
         padding-top:15px;
         display: inline-block;
-        margin: 0 auto;
     }
     
     footer .social img{
         width: 50px;
         height: 50px;
-        padding-left: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
@@ -815,10 +764,6 @@ footer .social img{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    }
-    
-    header .menu a:hover{
-        font-weight:700;
     }
     
     header .menu .btn:hover{
