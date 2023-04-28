@@ -1,5 +1,5 @@
-
-body{
+@media (min-width:1200px){
+    body{
     background-color: #5F1A1A;
     width: 100%;
     height: 770px;
@@ -153,18 +153,15 @@ main .contactsInfo .time{
     margin-bottom: 0;
 }
 
-main .social{
-    display: inline-block;
-}
-
-main .social img{
-    margin-right: 5px;
-    width: 40px;
-    height: 40px;
+footer{
+    margin-top: 20px;
+    width: 1200px;
+    height: 80px;
 }
 
 footer .sponsors{
-    margin-left: 400px;
+    float: left;
+    margin-left: 50px;
 }
 
 footer a{
@@ -175,7 +172,7 @@ footer .sponsors .rvio{
     width: 50px;
     height: 62.21px;
     float: left;
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0px;
 }
 
@@ -190,6 +187,757 @@ line-height: 30px;
 letter-spacing: 0.2em;
 color: #7C7171;
 margin:0px;
-padding-top: 15px;
+padding-top: 25px;
 padding-left: 65px;
+}
+
+footer .social{
+    float: right;
+    padding-top:30px;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+footer .social img{
+    width: 50px;
+    height: 50px;
+    padding-left: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:1119px){
+    body{
+        background-color: #5F1A1A;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .base
+    {
+        background-color: #F4F4F4;
+        width: 769px;
+        margin: 0 auto;
+        margin-top:0px;
+    }
+    
+    header{
+        text-transform: uppercase;
+        width: 769px;
+        height: 75px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    header .label{
+        color:#7C7171;
+        float: left;
+        width: 230px;
+        height: 55px;
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5em;
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    
+    header .label a:hover{
+        cursor: pointer;
+    }
+    
+    header .menu{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding-top: 22.5px;
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    header .menu a{
+        text-decoration: none;
+        color:#7C7171;
+        margin-right: 15px;
+    }
+    
+    header .menu .btn{
+    width: 105px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    }
+    
+    header .menu a:hover{
+        font-weight:700;
+    }
+    
+    header .menu .btn:hover{
+        background-color:#5F1A1A;
+        color:white;
+    }
+
+    main{
+        display: flex;
+    }
+    
+    main .map{
+        margin: 2%;
+        width: 96%;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+    }
+    
+    main .contactsInfo{
+        margin-right: 2%;
+        margin-top: 2%;
+        width: 28%;
+    }
+    
+    main .contactsInfo h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 22px;
+        margin-top: 0;
+    }
+    
+    main .contactsInfo .adress{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .telephone{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .ContactName{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .mail{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .timetable{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .time{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    footer{
+        margin-top: 20px;
+        width: 769px;
+        height: 90px;
+    }
+    
+    footer .contacts{
+        width: 600px;
+        height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 10px;
+        margin: 0 auto;
+        color: #7C7171;
+    }
+    
+    footer .contacts:hover{
+        background-color:#5F1A1A;
+        color:white;
+        transition: 0.5s;
+        transform: scale(1.05);
+    }
+    
+    footer .contacts .h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top:10px;
+    margin:0px;
+    }
+    
+    footer .contacts .adress{
+        width: 240px;
+        height: 86px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 16px;
+        line-height: 30px;
+    padding-left: 30px;
+    margin:0px;
+    padding-top: 10px;
+    float: left;
+    }
+    
+    footer .contacts .telephone{
+        width: 242px;
+        height: 69px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 16px;
+        line-height: 30px;
+    padding-right: 30px;
+    margin:0px;
+    padding-top: 10px;
+    float: right;
+    text-align: right;
+    }
+    
+    footer .sponsors{
+        float: left;
+        margin-left: 50px;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    
+    footer .sponsors .rvio{
+        width: 50px;
+        height: 62.21px;
+        float: left;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    
+    footer .sponsors pre{
+    width: 318px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    color: #7C7171;
+    margin:0px;
+    padding-top: 25px;
+    padding-left: 65px;
+    }
+    
+    footer .social{
+        float: right;
+        padding-top:30px;
+        display: inline-block;
+        padding-right: 50px;
+    }
+    
+    footer .social img{
+        width: 50px;
+        height: 50px;
+        padding-left: 16px;
+    }      
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:481px) and (max-width:768px){
+    body{
+        background-color:#F4F4F4;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    
+    .base
+    {
+        background-color: #F4F4F4;
+        width: 90%;
+        height: auto;
+        margin-top:0px;
+        margin: 0 auto;
+    }
+    
+    header{
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+    }
+    
+    header .label{
+        color:#7C7171;
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 30px;
+        line-height: 30px;
+        align-items: center;
+        letter-spacing: 0.5em;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        float: initial;
+        display: block;
+    }
+    
+    header .menu{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        width: 150px;
+        margin: 0 auto;
+        float: initial;
+        justify-content:space-around;
+        display: block;
+    }
+    
+    header .menu a{
+        text-decoration: none;
+        color:#7C7171;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    header .menu .btn{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    header .menu a:hover{
+        font-weight:700;
+    }
+    
+    header .menu .btn:hover{
+        background-color:#5F1A1A;
+        color:white;
+    }
+
+    main .map{
+        margin: 2%;
+        width: 96%;
+        height: 300px;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+    }
+    
+    main .contactsInfo{
+        margin: 2%;
+        width: 96%;
+        text-align: center;
+    }
+    
+    main .contactsInfo h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 22px;
+        margin-top: 0;
+    }
+    
+    main .contactsInfo .adress{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .telephone{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .ContactName{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .mail{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .timetable{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .time{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    
+    footer .contacts{
+        width: 80%;
+        height: 180px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        color: #7C7171;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer .contacts .h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:0px;
+    }
+    
+    footer .contacts .adress{
+        width: 85%;
+        height: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 auto;
+
+    }
+    
+    footer .contacts .telephone{
+        width: 70%;
+        height: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 20px;
+    margin:0 auto;
+    padding-top: 10px;
+    text-align: center;
+    }
+    
+    footer .sponsors{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    
+    footer .sponsors .rvio{
+        width: 50px;
+        height: 62.21px;
+        float: left;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+    
+    footer .sponsors pre{
+    width: 318px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #7C7171;
+    margin:0px;
+    padding-top: 35px;
+    }
+    
+    footer .social{
+        padding-top:15px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    
+    footer .social img{
+        width: 50px;
+        height: 50px;
+        padding-left: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    body{
+        background-color:#F4F4F4;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    
+    .base
+    {
+        background-color: #F4F4F4;
+        width: 375px;
+        height: auto;
+        margin-top:0px;
+    }
+    
+    header{
+        text-transform: uppercase;
+        width: 375px;
+        height: 280px;
+        text-align: center;
+    }
+    
+    header .label{
+        color:#7C7171;
+        float: left;
+        width: 375px;
+        height: 69px;
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: 30px;
+        align-items: center;
+        letter-spacing: 0.5em;
+        margin-top: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+        float: initial;
+        display: block;
+    }
+    
+    header .menu{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        float: initial;
+        justify-content:space-around;
+        display: block;
+    }
+    
+    header .menu a{
+        text-decoration: none;
+        color:#7C7171;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    header .menu .btn{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    header .menu a:hover{
+        font-weight:700;
+    }
+    
+    header .menu .btn:hover{
+        background-color:#5F1A1A;
+        color:white;
+    }
+
+    main .map{
+        margin: 2%;
+        width: 96%;
+        height: 300px;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+    }
+    
+    main .contactsInfo{
+        margin: 2%;
+        width: 96%;
+        text-align: center;
+    }
+    
+    main .contactsInfo h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 22px;
+        margin-top: 0;
+    }
+    
+    main .contactsInfo .adress{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .telephone{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .ContactName{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .mail{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .timetable{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+    }
+    
+    main .contactsInfo .time{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    footer{
+        width: 100%;
+        height: 80px;
+    }
+    
+    footer .sponsors{
+        float: left;
+        margin-left: 5px;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    
+    footer .sponsors .rvio{
+        width: 50px;
+        height: 62.21px;
+        float: left;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    
+    footer .sponsors pre{
+    width: 318px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #7C7171;
+    margin:0px;
+    padding-top: 35px;
+    padding-left: 55px;
+    }
+    
+    footer .social{
+        padding-top:15px;
+        display: inline-block;
+        padding-left: 83px;
+    }
+    
+    footer .social img{
+        width: 50px;
+        height: 50px;
+        padding-left: 16px;
+    } 
 }
