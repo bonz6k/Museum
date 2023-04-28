@@ -280,7 +280,7 @@
 
 
 
-@media (min-width:769px) and (max-width:1119px){
+@media (min-width:769px) and (max-width:1199px){
     body{
         background-color: #5F1A1A;
         width: 100%;
@@ -762,7 +762,7 @@
     }
 
     footer .sponsors{
-        width: 62.5%;
+        width: 370px;
         margin-left: auto;
         margin-right: auto;
     }
