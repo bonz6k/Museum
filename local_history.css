@@ -2,7 +2,7 @@
     body{
     background-color: #5F1A1A;
     width: 100%;
-    height: 770px;
+    height: auto;
     margin: 0px;
 }
 
@@ -10,9 +10,151 @@
 {
     background-color: #F4F4F4;
     width: 1200px;
-    height: 770px;
+    height: auto;
     margin: 0 auto;
     margin-top:0px;
+}
+
+#modal_village_history{
+    background-color:rgba(95,26,26,0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left:0;
+    top:0;
+}
+
+.modal_village_history_window{
+    width: 1100px;
+    height: auto;
+    background-color:#F4F4F4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#modal_museum_history{
+    background-color:rgba(95,26,26,0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left:0;
+    top:0;
+}
+
+.modal_museum_history_window{
+    width: 1100px;
+    height: auto;
+    background-color:#F4F4F4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#modal_school_history{
+    background-color:rgba(95,26,26,0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left:0;
+    top:0;
+}
+
+.modal_school_history_window{
+    width: 1100px;
+    height: auto;
+    background-color:#F4F4F4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h2_modal{
+    height: auto;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 40px;
+        color:#7C7171;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.h3_modal{
+    height: auto;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 30px;
+        color:#7C7171;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.p_modal{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 20px;
+        color:#7C7171;
+        text-align:justify;
+        text-indent: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+.img_modal{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.close_village{
+    color:#7C7171;
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.close_village:hover{
+    color:rgba(124,113,113, 0.9);
+    cursor: pointer;
+}
+
+.close_museum{
+    color:#7C7171;
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.close_museum:hover{
+    color:rgba(124,113,113, 0.9);
+    cursor: pointer;
+}
+
+.close_school{
+    color:#7C7171;
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.close_school:hover{
+    color:rgba(124,113,113, 0.9);
+    cursor: pointer;
 }
 
 header{
@@ -84,8 +226,88 @@ header .menu .btn:hover{
     color:white;
 }
 
+main{
+    width: 100%;
+    height: auto;
+}
+
+main .history{
+    display: flex;
+}
+
+main .village_history{
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #7C7171;
+    margin: 2%;
+}
+
+main .museum_history{
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #7C7171;
+    margin: 2%;
+}
+
+main .school_history{
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #7C7171;
+    margin: 2%;
+}
+
+main .village_history:hover{
+    background-color: #5F1A1A;
+        color: #FFFFFF;
+        transition: 0.5s;
+        transform:scale(1.05);
+}
+
+main .museum_history:hover{
+    background-color: #5F1A1A;
+        color: #FFFFFF;
+        transition: 0.5s;
+        transform:scale(1.05);
+}
+
+main .school_history:hover{
+    background-color: #5F1A1A;
+        color: #FFFFFF;
+        transition: 0.5s;
+        transform:scale(1.05);
+}
+
+main .history img{
+    width: 98%;
+    height: auto;
+    margin: 1%;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+main h2{
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+
 footer{
-    margin-top: 20px;
+    margin-top: 3px;
     width: 1200px;
     height: 80px;
 }
@@ -165,6 +387,149 @@ footer .social img{
         margin-top:0px;
     }
     
+    #modal_village_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_village_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_museum_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_museum_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_school_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_school_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .h2_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 40px;
+            color:#7C7171;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: 60px;
+    }
+    
+    .h3_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 30px;
+            color:#7C7171;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+    }
+    
+    .p_modal{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 20px;
+            color:#7C7171;
+            text-align:justify;
+            text-indent: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+    }
+    
+    .img_modal{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .close_village{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_village:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_museum{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_museum:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_school{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_school:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+
     header{
         text-transform: uppercase;
         width: 769px;
@@ -232,6 +597,86 @@ footer .social img{
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
+    }
+
+    main{
+        width: 100%;
+        height: auto;
+    }
+    
+    main .history{
+        display: flex;
+    }
+    
+    main .village_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .museum_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .school_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .village_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .museum_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .school_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .history img{
+        width: 98%;
+        height: auto;
+        margin: 1%;
+    }
+    
+    main img{
+        width: 100%;
+        height: auto;
+    }
+    
+    main h2{
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5px;
     }
 
     footer{
@@ -352,6 +797,14 @@ footer .social img{
 
 
 
+
+
+
+
+
+
+
+
 @media (min-width:481px) and (max-width:768px){
     body{
         background-color:#F4F4F4;
@@ -369,6 +822,149 @@ footer .social img{
         margin: 0 auto;
     }
     
+    #modal_village_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_village_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_museum_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_museum_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_school_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_school_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .h2_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 40px;
+            color:#7C7171;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: 60px;
+    }
+    
+    .h3_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 30px;
+            color:#7C7171;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+    }
+    
+    .p_modal{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 20px;
+            color:#7C7171;
+            text-align:justify;
+            text-indent: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+    }
+    
+    .img_modal{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .close_village{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_village:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_museum{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_museum:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_school{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_school:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+
     header{
         text-transform: uppercase;
         width: 100%;
@@ -427,6 +1023,86 @@ footer .social img{
         color:white;
     }
 
+    main{
+        width: 100%;
+        height: auto;
+    }
+    
+    main .history{
+        text-align: center;
+    }
+    
+    main .village_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .museum_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .school_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .village_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .museum_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .school_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .history img{
+        width: 98%;
+        height: auto;
+        margin: 1%;
+    }
+    
+    main img{
+        width: 100%;
+        height: auto;
+    }
+    
+    main h2{
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
     footer{
         width: 100%;
         height: auto;
@@ -467,6 +1143,7 @@ footer .social img{
     footer .social{
         padding-top:15px;
         display: inline-block;
+        margin-left: 5%;
     }
     
     footer .social img{
@@ -487,8 +1164,9 @@ footer .social img{
 
 
 
-@media (max-width: 480px){
 
+
+@media (max-width: 480px){
     body{
         background-color:#F4F4F4;
         width: 100%;
@@ -504,6 +1182,149 @@ footer .social img{
         margin-top:0px;
     }
     
+    #modal_village_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_village_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_museum_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_museum_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #modal_school_history{
+        background-color:rgba(95,26,26,0.8);
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left:0;
+        top:0;
+    }
+    
+    .modal_school_history_window{
+        width: 100%;
+        height: auto;
+        background-color:#F4F4F4;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .h2_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 40px;
+            color:#7C7171;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: 60px;
+    }
+    
+    .h3_modal{
+        height: auto;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 30px;
+            color:#7C7171;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+    }
+    
+    .p_modal{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 20px;
+            color:#7C7171;
+            text-align:justify;
+            text-indent: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+    }
+    
+    .img_modal{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .close_village{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_village:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_museum{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_museum:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+    
+    .close_school{
+        color:#7C7171;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    
+    .close_school:hover{
+        color:rgba(124,113,113, 0.9);
+        cursor: pointer;
+    }
+
     header{
         text-transform: uppercase;
         width: 375px;
@@ -565,6 +1386,86 @@ footer .social img{
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
+    }
+
+    main{
+        width: 100%;
+        height: auto;
+    }
+    
+    main .history{
+        text-align: center;
+    }
+    
+    main .village_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .museum_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .school_history{
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+        margin: 2%;
+    }
+    
+    main .village_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .museum_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .school_history:hover{
+        background-color: #5F1A1A;
+            color: #FFFFFF;
+            transition: 0.5s;
+            transform:scale(1.05);
+    }
+    
+    main .history img{
+        width: 98%;
+        height: auto;
+        margin: 1%;
+    }
+    
+    main img{
+        width: 100%;
+        height: auto;
+    }
+    
+    main h2{
+        font-family: 'Roboto';
+        font-style:normal;
+        font-weight: lighter;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5px;
     }
 
     footer{

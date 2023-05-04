@@ -795,6 +795,7 @@
     footer .social{
         padding-top:15px;
         display: inline-block;
+        margin-left: 5%;
     }
     
     footer .social img{
