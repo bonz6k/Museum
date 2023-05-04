@@ -1243,6 +1243,7 @@ main .cosmonautics_hall .text_cosmonautics_hall{
         width: 375px;
         height: 3450px;
         margin-top:0px;
+        margin: 0 auto;
     }
     
     header{
