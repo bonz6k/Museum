@@ -18,3 +18,13 @@ var granica2018_click = document.getElementById('granica2018');
 granica2018_click.onclick = function(){
     window.location.href = 'Granica-2018.html'
 }
+
+var vahta_click = document.getElementById('vahta2018');
+vahta_click.onclick = function(){
+    window.location.href = 'vahta-pamyati-2018.html'
+}
+
+var krokus_click = document.getElementById('krokus2016');
+krokus_click.onclick = function(){
+    window.location.href = 'krokus-2016.html'
+}
