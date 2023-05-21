@@ -10,7 +10,7 @@
 {
     background-color: #F4F4F4;
     width: 1200px;
-    height: 850px;
+    height: auto;
     margin: 0 auto;
     margin-top:0px;
 }
@@ -84,51 +84,129 @@ header .menu .btn:hover{
     color:white;
 }
 
-main .slaider{
-    text-align: center;
+main{
+    color:#7C7171;
 }
 
-main .slaider img{
-    width: 99%;
-    height: auto;
-    margin: 0.5%;
-}
-
-main .subjects{
+main .content{
     display: flex;
 }
 
-main .sub{
+main #h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main .map{
+    margin: 2%;
+    width: 48%;
+    border: solid;
+    border-color: #5F1A1A;
+    margin-bottom: 0;
+    float: left;
+}
+
+main .text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 20px;
+    float: right;
+    width: 48%;
+    height: auto;
+    margin-top: 1.5%;
+}
+
+main .photos{
+    width: 80%;
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    height: auto;
+    border: solid;
+    border-color: #5F1A1A;
+}
+
+main .photos img{
+    width: 99%;
+    height: auto;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+main .photo_vk{
     display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:300;
+    font-size: 32px;
+    text-align: center;
+    color: #7C7171;
+    text-decoration: none;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    height: 40px;
+    vertical-align: middle;
+    margin: 1%;
+    margin-left: 25%;
+}
+
+main .photo_vk:hover{
+    background-color: #5F1A1A;
+        transition: 0.5s;
+        transform:scale(1.05);
+        color: #F4F4F4;
+}
+
+main .vestnik{
+    width: 80%;
+    height: 350px;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    text-decoration: none;
     background-color:#FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #7C7171;
-    width: 30%;
-    height: 370px;
-    margin: 2%;
 }
 
-main .sub img{
-    width: 96%;
-    height: auto;
-    margin: 2%;
-}
-
-main .sub h2{
-    font-family: 'Roboto';
-    font-style:normal;
-    font-weight: lighter;
-    font-size: 30px;
-    text-align: center;
-    margin: 0;
-    padding-top: 0;
-}
-
-main .sub:hover{
+main .vestnik:hover{
     background-color: #5F1A1A;
-        color: #FFFFFF;
         transition: 0.5s;
         transform:scale(1.05);
+        color: #F4F4F4;
+}
+
+main .vestnik img{
+    height: 96%;
+    width: auto;
+    margin: 1%;
+}
+
+main .vestnik h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main .vestnik p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
 }
 
 footer{
@@ -278,6 +356,131 @@ footer .social img{
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
+    }
+
+    main{
+        color:#7C7171;
+    }
+    
+    main .content{
+        display: flex;
+    }
+    
+    main #h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 30px;
+        margin-top: 1%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    main .map{
+        margin: 2%;
+        width: 48%;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+        float: left;
+    }
+    
+    main .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 16px;
+        float: right;
+        width: 48%;
+        height: auto;
+        margin-top: 1.5%;
+    }
+    
+    main .photos{
+        width: 80%;
+        margin: 10%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        height: auto;
+        border: solid;
+        border-color: #5F1A1A;
+    }
+    
+    main .photos img{
+        width: 99%;
+        height: auto;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+    }
+    
+    main .photo_vk{
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:300;
+        font-size: 20px;
+        text-align: center;
+        color: #7C7171;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 50%;
+        height: 25px;
+        vertical-align: middle;
+        margin: 1%;
+        margin-left: 25%;
+    }
+    
+    main .photo_vk:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik{
+        width: 80%;
+        height: 250px;
+        margin: 10%;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+    }
+    
+    main .vestnik:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik img{
+        height: 96%;
+        width: auto;
+        margin: 1%;
+    }
+    
+    main .vestnik h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 22px;
+        margin: 0;
+        margin-top: 2%;
+        text-align: center;
+    }
+    
+    main .vestnik p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 19px;
+        margin: 0;
+        text-align: center;
     }
 
     footer{
@@ -473,6 +676,137 @@ footer .social img{
         color:white;
     }
 
+    main{
+        color:#7C7171;
+    }
+    
+    main .content{
+        display: inline-block;
+    }
+    
+    main #h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 25px;
+        margin-top: 1%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    main .map{
+        margin: 2%;
+        width: 96%;
+        height: 400px;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+        float: left;
+    }
+    
+    main .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 14px;
+        float: right;
+        width: 96%;
+        height: auto;
+        margin: 2%;
+        text-align: center;
+    }
+
+    main .text p{
+        margin: 0;
+    }
+    
+    main .photos{
+        width: 80%;
+        margin: 10%;
+        margin-top: 1%;
+        margin-bottom: 0;
+        height: auto;
+        border: solid;
+        border-color: #5F1A1A;
+    }
+    
+    main .photos img{
+        width: 99%;
+        height: auto;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+    }
+    
+    main .photo_vk{
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:300;
+        font-size: 20px;
+        text-align: center;
+        color: #7C7171;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 80%;
+        height: 25px;
+        vertical-align: middle;
+        margin: 1%;
+        margin-left: 10.5%;
+    }
+    
+    main .photo_vk:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik{
+        width: 80%;
+        height: 250px;
+        margin: 10%;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+    }
+    
+    main .vestnik:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik img{
+        height: 96%;
+        width: auto;
+        margin: 1%;
+    }
+    
+    main .vestnik h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 15px;
+        margin: 0;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    main .vestnik p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
+    }
+
     footer{
         width: 100%;
         height: auto;
@@ -613,6 +947,137 @@ footer .social img{
     header .menu .btn:hover{
         background-color:#5F1A1A;
         color:white;
+    }
+
+    main{
+        color:#7C7171;
+    }
+    
+    main .content{
+        display: inline-block;
+    }
+    
+    main #h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 30px;
+        margin-top: 1%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    main .map{
+        margin: 2%;
+        width: 96%;
+        height: 400px;
+        border: solid;
+        border-color: #5F1A1A;
+        margin-bottom: 0;
+        float: left;
+    }
+    
+    main .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 12px;
+        float: right;
+        width: 96%;
+        height: auto;
+        margin: 2%;
+        text-align: center;
+    }
+
+    main .text p{
+        margin: 0;
+    }
+    
+    main .photos{
+        width: 90%;
+        margin: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+        border: solid;
+        border-color: #5F1A1A;
+    }
+    
+    main .photos img{
+        width: 99%;
+        height: auto;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+    }
+    
+    main .photo_vk{
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:300;
+        font-size: 15px;
+        text-align: center;
+        color: #7C7171;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 80%;
+        height: 20px;
+        vertical-align: middle;
+        margin: 2%;
+        margin-left: 10.5%;
+    }
+    
+    main .photo_vk:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik{
+        width: 90%;
+        height: 220px;
+        margin: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        text-decoration: none;
+        background-color:#FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #7C7171;
+    }
+    
+    main .vestnik:hover{
+        background-color: #5F1A1A;
+            transition: 0.5s;
+            transform:scale(1.05);
+            color: #F4F4F4;
+    }
+    
+    main .vestnik img{
+        height: 96%;
+        width: auto;
+        margin: 1%;
+    }
+    
+    main .vestnik h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 13px;
+        margin: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    main .vestnik p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:lighter;
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
     }
 
     footer{
