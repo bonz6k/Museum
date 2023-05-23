@@ -11,6 +11,10 @@ span_war.onclick=function(event){
         modal_war.style.display='none'
 }
 
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {modal_war.style.display='none'}
+})
+
 
 var span_cosmonautics = document.getElementsByClassName('close_cosmonautics')[0];
 var modal_cosmonautics=document.getElementById('modal_cosmonautics')
@@ -22,6 +26,11 @@ cosmonautics_hall.onclick=function(){
 span_cosmonautics.onclick=function(event){
     modal_cosmonautics.style.display='none'
 }
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {modal_cosmonautics.style.display='none'}
+})
+
 
 
 var span_archeology = document.getElementsByClassName('close_archeology')[0];
@@ -35,6 +44,11 @@ span_archeology.onclick=function(event){
     modal_archeology.style.display='none'
 }
 
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {modal_archeology.style.display='none'}
+})
+
+
 
 var span_history = document.getElementsByClassName('close_history')[0];
 var modal_history=document.getElementById('modal_history')
@@ -46,4 +60,9 @@ hall_of_history.onclick=function(){
 span_history.onclick=function(event){
     modal_history.style.display='none'
 }
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {modal_history.style.display='none'}
+})
+
 }

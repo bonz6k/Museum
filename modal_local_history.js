@@ -11,6 +11,10 @@
         modal_village_history.style.display='none'
     }
 
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {modal_village_history.style.display='none'}
+    })
+
     var span_museum = document.getElementsByClassName('close_museum')[0];
     var modal_museum_history=document.getElementById('modal_museum_history')
     var museum_history = document.getElementById('museum_history')
@@ -23,6 +27,10 @@
         modal_museum_history.style.display='none'
     }
 
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {modal_museum_history.style.display='none'}
+    })
+
     var span_school = document.getElementsByClassName('close_school')[0];
     var modal_school_history=document.getElementById('modal_school_history')
     var school_history = document.getElementById('school_history')
@@ -34,3 +42,7 @@
     span_school.onclick=function(event){
         modal_school_history.style.display='none'
     }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {modal_school_history.style.display='none'}
+    })
