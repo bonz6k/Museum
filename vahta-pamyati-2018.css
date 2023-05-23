@@ -166,9 +166,9 @@ main .photo_vk{
 
 main .photo_vk:hover{
     background-color: #5F1A1A;
-        transition: 0.5s;
-        transform:scale(1.05);
-        color: #F4F4F4;
+    transition: 0.5s;
+    transform:scale(1.05);
+    color: #F4F4F4;
 }
 
 main .vestnik{
@@ -186,9 +186,9 @@ main .vestnik{
 
 main .vestnik:hover{
     background-color: #5F1A1A;
-        transition: 0.5s;
-        transform:scale(1.05);
-        color: #F4F4F4;
+    transition: 0.5s;
+    transform:scale(1.05);
+    color: #F4F4F4;
 }
 
 main .vestnik img{
