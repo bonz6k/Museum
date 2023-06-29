@@ -1,7 +1,7 @@
 
-if(window.innerWidth<480){
+if(window.innerWidth<1200){
     
-    var images = new Array();
+var images = new Array();
 var i = 0;
 var o = 5;
 var p = 10;
